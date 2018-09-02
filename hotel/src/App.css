@@ -1,0 +1,187 @@
+.header {
+    display: flex;
+    align-items: row;
+    flex-flow: row wrap;
+    background: #000000;
+}
+
+.logo {
+    width: 130px;
+    height: 100px;
+    flex: 1;
+}
+
+.middle {
+    flex: 8;
+    background-color: #201F1FB9;
+}
+
+.description {
+    flex: 1;
+    color: #FFFFFF;
+    font-size: 1.3em;
+    background-color: #1B1B1D;
+    border: 0;
+}
+
+.description:hover {
+    color:#0B7FEC;
+    background-color: #263342;
+}
+
+.Inside-search {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: row;
+    flex-flow: row wrap;
+    padding: 3vw 2.5vw;
+    box-shadow: 0px 0px 16px 0.1em #999999;
+    height: 5vw;
+    min-height: 80px;
+    min-width: 430px;
+}
+
+.hotelName {
+    flex: 1.5;
+    margin-left: 60px;
+    height: 3vw;
+    font-size: 1em;
+    padding-left: 20px;
+    min-width: 260px;
+    min-height: 20px;
+
+}
+
+.searchbutton {
+    flex: 0.3;
+    height: 3vw;
+    border: 0;
+    background: #f3609d;
+    color: white;
+    font-size: 1.2em;
+    margin-right: 40px;
+    margin-left: 60px;
+    min-height: 30px;
+    margin-top: 3px;
+}
+
+.searchbutton:hover {
+    background: #a03e67;
+    color: white;
+}
+
+.dateRange {
+    flex: 2;
+    display: flex;
+    align-items: row;
+    flex-flow: row wrap;
+    height: 40px;
+}
+
+.Date {
+    text-align: center;
+    font-size: 1em;
+    margin-left: 60px;
+    height: 3vw;
+    width: 190px;
+    min-height: 20px;
+}
+
+.Inside-display {
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row;
+    flex-wrap: row wrap;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 15px 0.1em #ace7b4;
+    width: 98%;
+	min-width: 450px;
+    height:14vw;
+    min-height: 130px;
+}
+.scroll{
+    overflow-y: scroll;
+    height: 420px;
+}
+
+.HotelLogo {
+    flex: 1;
+	
+}
+.LogoImg{
+	height:14vw;
+    width: 20vw;
+    min-width: 120px;
+    min-height: 120px;
+}
+
+.HotelNameRatings {
+    flex: 2.5;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: column wrap;
+}
+
+.buttons {
+    flex: 1;
+}
+
+.HotelName {
+    flex: 1;
+    font-size: 2.5vw;
+    font-weight: bolder;
+    padding: 10px 5px;
+}
+
+.HotelAddress {
+    flex: 1;
+    font-style: italic;
+    padding: 10px 8px;
+    font-size: 1.2vw;
+}
+
+.rating {
+    flex: 1;
+    font-size: 1.7em;
+    padding: 5px 5px;
+}
+
+.available-button {
+    margin-top:50px;
+    height: 50px;
+    width: 170px;
+    background: #21881D;
+	font-size: 1.1em;
+	font-weight: bolder;
+	border: 0;
+}
+.available-button:active{
+	background: #00ff00;
+}
+.partially-available-button {
+    margin-top:50px;
+    height: 50px;
+    width: 170px;
+    background: #D9E213;
+	font-size: 1.1em;
+	font-weight: bolder;
+	border: 0;
+}
+.partially-available-button:active{
+	background: #cda000; 
+}
+
+.not-available-button:active{
+	background: #ff0000;
+}
+
+.not-available-button {
+    margin-top:50px;
+    height: 50px;
+    width: 170px;
+    background: #C2132E;
+	font-size: 1.1em;
+	font-weight: bolder;
+	border: 0;
+}
